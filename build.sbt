@@ -7,14 +7,12 @@ lazy val root = (project in file("."))
     name := "assignments"
   )
 
-lazy val helloCore = (project in file("core"))
+lazy val bt = (project in file("binaryTree"))
   .settings(
-    name := "Hello Core",
+    name := "Binary tree",
   )
 
-lazy val hello = (project in file("hello"))
-  .aggregate(helloCore)
-  .dependsOn(helloCore)
+lazy val bti = (project in file("binaryTreeImplementation"))
   .settings(
-    name := "Hello",
-  )
+    name := "Implementation",
+  ).dependsOn(bt)

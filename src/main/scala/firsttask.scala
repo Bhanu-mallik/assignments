@@ -15,6 +15,7 @@ if we need to construct a generic class then ?
 should traverse and store the values in the 1 & 2 problem, for 3 problem need to evaluate it.
 */
 
+
 trait Tree {
 
   val rootNode : Node
@@ -69,6 +70,8 @@ object firsttask {
     println(tree.preOrderTraversal(tree.rootNode))
   }
 }
+
+
 
 /*
  Binary

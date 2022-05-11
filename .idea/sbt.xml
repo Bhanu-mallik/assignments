@@ -8,6 +8,8 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/binaryTree" />
+            <option value="$PROJECT_DIR$/binaryTreeImplementation" />
             <option value="$PROJECT_DIR$/project" />
           </set>
         </option>
